@@ -8,7 +8,7 @@ const cors=require('cors');
 const app=express();
 
 app.use(cors({
-  origin: ["http://alert-f.vercel.app/", "http://localhost:5173"],// Frontend URL
+  origin: ["https://alert-frontend-delta.vercel.app/", "http://localhost:5173"],// Frontend URL
     methods: "GET,POST,PUT,DELETE",
     credentials: true // Allow cookies if needed
   }));
