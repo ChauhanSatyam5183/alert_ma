@@ -4,7 +4,7 @@ const incidentSchema = new mongoose.Schema({
   incidentId: {
     type: mongoose.Schema.Types.ObjectId,
     required: true
-  },
+  },   
   temporaryId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'TemporaryIncident', // Replace with your actual referenced model name

@@ -8,7 +8,7 @@ const cors=require('cors');
 const app=express();
 
 app.use(cors({
-  origin: ["https://rgja-frontend-93qp.vercel.app", "http://localhost:5173"],// Frontend URL
+  origin: ["https://alert-g17jtsefs-satyam-chauhans-projects.vercel.app/", "http://localhost:5173"],// Frontend URL
     methods: "GET,POST,PUT,DELETE",
     credentials: true // Allow cookies if needed
   }));
