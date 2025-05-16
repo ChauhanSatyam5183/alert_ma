@@ -7,7 +7,7 @@ const serverconfig=require("./servercofig")
 // us to connect db
 
 async function connectdb(params) {
-
+    console.log(serverconfig.DB_URL);
     try {
        await mongoose.connect(serverconfig.DB_URL) 
        console.log("successfully connected to mongodb");
